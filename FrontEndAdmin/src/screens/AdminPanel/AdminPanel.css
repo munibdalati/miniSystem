@@ -1,0 +1,59 @@
+:root {
+  --primarycolor: #ff8947;
+  --secondarycolor: #f7ebe7;
+  --thirdcolor: #646464;
+  --black:#121413;
+  --button:#ff9822;
+  --hover:#8a8a8a;
+  --transition: 0.5s;
+  --padding :5px;
+  --margin: 25px auto;
+  --font-size:1rem;
+  --heading-size :1.5rem;
+}
+.centeredContentStyle {
+  text-align: center;
+}
+.btnsContainerStyle {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.Admin__btn {
+  background-color: var(--secondarycolor);
+  border-color: var(--primarycolor);
+  color: var(--primarycolor);
+  font-size: 40px;
+  padding: 20px 40px;
+}
+.Admin__btn:hover {
+  background-color: var(--primarycolor);
+  color: var(--primarycolor);
+}
+
+@media screen and (max-width: 770px) {
+  .btnsContainerStyle {
+    flex-direction: column;
+    margin-top: 5rem;
+    gap: 2rem;
+  }
+  .Admin__btn {
+    font-size: 20px;
+    padding: 12px 24px;
+  }
+}
+
+.btn-orange {
+  background-color: var(--secondarycolor);
+  border-color: var(--primarycolor);
+  color: var(--primarycolor);
+}
+.btn-orange:hover {
+  background-color: var(--primarycolor);
+  border-color: var(--primarycolor);
+  color: var(--secondarycolor);
+}
+

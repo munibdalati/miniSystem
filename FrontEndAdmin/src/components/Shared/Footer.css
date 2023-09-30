@@ -1,0 +1,13 @@
+
+.footer__careerly {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--primarycolor);
+  cursor:"pointer"
+}
+
+@media screen and (max-width: 770px) {
+  .footer__row{
+    flex-direction: column;
+  }
+}

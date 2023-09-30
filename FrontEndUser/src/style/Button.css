@@ -1,0 +1,10 @@
+.Careerly__btn {
+  background-color: #f7ebe7;
+  border-color: #ff8947;
+  color: #ff8947;
+}
+.Careerly__btn:hover {
+  background-color: #ff8947;
+  color: #f7ebe7;
+}
+
